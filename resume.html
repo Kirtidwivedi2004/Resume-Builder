@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <srcipt src="resume.js"></srcipt>
+</head>
+<body>
+   
+    <div class="container">
+    <h1 class="text-center my-2">Resume Builder</h1>
+    <p class="text-center">Enter the following details</p>
+    <div class="row">
+        <div class="col-md-6">
+            <!--first col-->
+            <h3>Personal information</h3>
+            <div class="form-group">
+                <label for="nameField">Your Name</label>
+                <input type="text" id="nameField" class="form-control">
+            </div>
+            <div class="form-group" mt-2>
+                <label for="emailField">Your Email</label>
+                <input type="email" id="emailField" class="form-control">
+        </div>
+            <div class="form-group" mt-2>
+                <label for="phoneField">Your Phone</label>
+                <input type="text" id="phoneField" class="form-control">
+                </div>
+                <div class="form-group" mt-2>
+                    <label for="addressField">Your Address</label>
+                    <textarea id="addressField" placeholder="Enter here" class="form-control" rows="5"></textarea>
+                </div>
+                <div class="form-group" mt-2>
+                    <label for="fbfield">Facebook</label>
+                    <input type="text" id="fbfield" placeholder="Enterhere" class="form-control">
+                </div>
+                <div class="form-group" mt-2>
+                    <label for="igfield">Instagram</label>
+                    <input type="text" id="igfield" placeholder="Enterhere" class="form-control">
+                </div>
+                <div class="form-group" mt-2>
+                    <label for="ldfield">LinkedIn</label>
+                    <input type="text" id="ldfield" placeholder="Enterhere" class="form-control">
+                </div>
+    </div>
+</div>
+        <div class="col-md-6">
+            <!--second col-->
+            <h3>Professional Information</h3>
+            <div class="form-group">
+                <label for="expField">Your Experience</label>
+                <textarea id="expField" placeholder="Enter here" class="form-control" rows="2"></textarea>
+                <div class="container text-center mt-2">
+                    <button onclick="addNewexpfield" class="btn btn-primary">Add</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="edField">Academic Qualifications</label>
+                <textarea id="edField" placeholder="Enter here" class="form-control" rows="2"></textarea>
+                <div class="container text-center mt-2">
+                    <button class="btn btn-primary">Add</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="refField">Reference</label>
+                <textarea id="refField" placeholder="Enter here" class="form-control" rows="2"></textarea>
+                <div class="container text-center mt-2">
+                    <button class="btn btn-primary">Add</button>
+                </div>
+            </div>
+
+            </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script></body></html>
